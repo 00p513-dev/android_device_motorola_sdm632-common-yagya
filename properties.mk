@@ -68,7 +68,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.hwc_set_default_colormode=true \
     debug.sf.enable_hwc_vds=1 \
     debug.sf.hw=1 \
-    debug.sf.latch_unsignaled=1 \
+    debug.sf.latch_unsignaled=0 \
     vendor.gralloc.enable_fb_ubwc=1 \
     debug.sf.enable_gl_backpressure=1 \
     dev.pm.dyn_samplingrate=1 \
@@ -78,6 +78,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Factory reset partition
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/7824900.sdhci/by-name/frp
+
+# Netflix
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.netflix.bsp_rev=Q660-13149-1
 
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -197,3 +201,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Custom
+
+# LMKD
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.low=1001 \
+    ro.lmk.medium=800 \
+    ro.lmk.critical=0 \
+    ro.lmk.critical_upgrade=false \
+    ro.lmk.upgrade_pressure=100 \
+    ro.lmk.downgrade_pressure=100 \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.kill_timeout_ms=100 \
+    ro.lmk.use_minfree_levels=true
+
+# Perf
+PRODUCT_PRODUCT_PROPERTIES += \
+    sys.use.fifo_ui=1
