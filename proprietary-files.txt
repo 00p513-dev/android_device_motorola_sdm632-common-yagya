@@ -1124,3 +1124,19 @@ vendor/lib/libwfdhdcpcp.so|b51d6cd0ed7838200a0fc5e93144a8352922d2a9
 vendor/lib/libwfdmmservice.so|ae4e690dfda60111d3cd61259ccf13a9c562beb2
 vendor/lib/libwfdmodulehdcpsession.so|85c76302658c3bbd9c35ea4d4b2e6ffba08b770e
 vendor/lib64/libwfdhdcpcp.so|03c05652a41db0709effacc6d8cea627fb2492f4
+
+# Extra stuff so that I can get this thing to work (please let it work)
+lib64/vendor.qti.hardware.fm@1.0.so
+lib/libmm-qcamera.so:vendor/lib/libmm-qcamera.so
+lib64/libclearsight.so:vendor/lib64/libclearsight.so
+lib64/libfiltergenerator.so:vendor/lib64/libfiltergenerator.so
+lib64/liboptizoom.so:vendor/lib64/liboptizoom.so
+lib64/libtrueportrait.so:vendor/lib64/libtrueportrait.so
+lib64/libts_face_beautify_hal.so:vendor/lib64/libts_face_beautify_hal.so
+lib64/libubifocus.so:vendor/lib64/libubifocus.so
+vendor/lib/libdualcameraddm.so
+vendor/lib/libmmosal_proprietary.so|dfa0b9751df0a52ffd69e00af463ad65f54c01e5
+vendor/lib/libwfdcommonutils_proprietary.so|d190dd29efbb601933a32dbc0f1f1df00384f077
+vendor/lib/libwfdmmservice.so|a99c38be9f6a6ce4a2767fb066191c2017fcb341
+vendor/lib64/libxml.so|dba175d291e1adc004bf1463db091cde95a0d92d
+vendor/lib/libxml.so|9a23d0f93b7ba00f88f3b8c708494fbc030c88a5
