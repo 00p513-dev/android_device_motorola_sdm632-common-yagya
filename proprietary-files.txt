@@ -919,7 +919,6 @@ vendor/radio/qcril_database/upgrade/14_version_qcrildb.sql
 vendor/radio/qcril_database/upgrade/15_version_qcrildb.sql
 vendor/radio/qcril_database/upgrade/16_version_qcrildb.sql
 
-<<<<<<< HEAD
 # Radio - IMS
 -product/priv-app/ims/ims.apk|d25e4324fc021325eb7882c55583c5587c51b4a0
 lib/android.hardware.camera.common@1.0.so
@@ -1141,7 +1140,6 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|88d492e29713732b414fa7556d2108b0302
 vendor/lib64/vendor.qti.imsrtpservice@2.0.so|2a0c9695a20f33e374e73a52470d14e5cc172340
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|51e1875c371305303fee6132308379c5741cefc9
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|b4d690b8ff332233c70bf01bba7d5b5793564437
->>>>>>> 7229aa75909f879f3b2818bd5dbb8a4e6fb6ac63
 
 # MOTO RIL
 vendor/lib64/libsensorndkbridge.so
