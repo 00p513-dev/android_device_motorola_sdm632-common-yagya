@@ -168,7 +168,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.vendorprefix=/vendor
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+<<<<<<< HEAD:properties.mk
     persist.sys.fflag.override.settings_network_and_internet_v2=true \
+=======
+>>>>>>> 7229aa75909f879f3b2818bd5dbb8a4e6fb6ac63:vendor_prop.mk
     persist.vendor.cne.feature=1 \
     persist.vendor.dpm.feature=0 \
     DEVICE_PROVISIONED=1 \
